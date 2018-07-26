@@ -11785,12 +11785,13 @@ Dated: July 11, 2018</p>
 <li><p>Time taken to say the color of ink in two lists of same size would be our <strong>dependent variable</strong>.</p>
 </li>
 </ul>
-<p>With our dependent and independent variables identified, let's set our null and alternate hypothesis. A null hypothesis in this case would be that there is no significant difference between the mean time taken to say colors for congruent (μ<sub>c</sub>) and incongruent (μ<sub>i</sub>) words. Even though it seems intutive that incongruent words will take longer time, my alternate hypothesis is that there is a significant difference in time taken for congruent and incongruent lists.</p>
-<p>H<sub>0</sub>: μ<sub>c</sub> = μ<sub>i</sub></p>
-<p>H<sub>A</sub>: μ<sub>c</sub> != μ<sub>i</sub></p>
+<p>With our dependent and independent variables identified, let's set our null and alternate hypothesis. A null hypothesis in this case would be that there is no significant difference between the mean time taken, not just for this sample, but for the entire population to say colors for congruent (μ<sub>c</sub>) and incongruent (μ<sub>i</sub>) words. Even though it seems intutive that incongruent words will take longer time, my alternate hypothesis is that there is a significant difference in time taken for congruent and incongruent lists.</p>
+<p>H<sub>0</sub>: μ<sub>c</sub> = μ<sub>i</sub> or (μ<sub>c</sub> - μ<sub>i</sub> = 0)</p>
+<p>H<sub>A</sub>: μ<sub>c</sub> != μ<sub>i</sub> or (μ<sub>c</sub> - μ<sub>i</sub> != 0)</p>
+<p>where μ<sub>c</sub> and μ<sub>i</sub> are population mean.</p>
 <p>With these null and alternate hypothesis set, what kind of statistical tests am I going to do?</p>
 <p><em>Two tailed dependent samples t-test</em></p>
-<p>Since I am not concerened about the direction, I will certainly go for a two tailed test. My dataset for this test contains 25 records and parameters are not available to me. Given that t distribution is used for small sample sizes with unknown population variance, I will go for a dependent samples t-test and see if we can retain or reject the null hypothesis. Also the same person is taking the test twice, so this falls under the <em>within-subject</em> or <em>repeated-measures</em> tests.</p>
+<p>Since I am not concerened about the direction, I will certainly go for a two tailed test. My dataset for this test contains 24 records and parameters are not available to me. Given that t distribution is used for small sample sizes with unknown population variance, I will go for a dependent samples t-test and see if we can retain or reject the null hypothesis. Also the same person is taking the test twice, so this falls under the <em>within-subject</em> or <em>repeated-measures</em> tests.</p>
 <h2 id="Go-...">Go ...<a class="anchor-link" href="#Go-...">&#182;</a></h2><p>Let's figure out some descriptive statistics about our dataset.</p>
 <ul>
 <li>Degrees of freedom (n -1): 24 - 1 = 23</li>
@@ -12129,6 +12130,9 @@ Standard Error: 1.0
 <li><p>Can you think of an alternative or similar task that would result in a similar effect?</p>
 <p>Another task that can be similar to this would be counting number of characters in word. One set of words will be words for numbers, for example four, three, two, ten. Another set of words would be any other word that doesn't represent a number. The set with numbers should be difficult to count as the mind would try to read the word as number rather than counting characters.</p>
 </li>
+</ul>
+<h2 id="Sources">Sources<a class="anchor-link" href="#Sources">&#182;</a></h2><ul>
+<li>Udacity Lectures from Machine Learning Foundation Nano Degree.</li>
 </ul>
 
 </div>
