@@ -16,4 +16,4 @@ In the incongruent words condition, the words displayed are color words whose na
 
 In each case, we measure the time it takes to name the ink colors in equally-sized lists. Each participant will go through and record a time from each condition.
 
-This repository contains some descriptive statistics work on Stroop effect and my findings.
+This repository contains some descriptive statistics work on Stroop effect and my findings. Here is the report https://vvdwivedi.github.io/stroop-effect/ 
